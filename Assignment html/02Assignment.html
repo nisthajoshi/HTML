@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module (HTML5)-3</title>
+    <style>
+        .a{
+            border: dashed rgb(249, 7, 88) 5px;
+            border-radius: 20px;
+            height:300px;
+            width:1000px;
+            background-color:rgb(151, 140, 140);
+            font-size: 20px;
+            font-family:sans-serif;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <table  border="1" class="a">
+        <thead>
+            <tr>
+            <td>Qustion</td>
+            <td>Answeare</td>
+
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>What are the new tags added in HTML5?</td>
+                <td>
+                   dialog tag:- It represents a dialog box or other interactive components.<br><br>
+                   figcaption tag:- 	It defines caption for the figure tag element.<br><br>
+                   figure tag:- 	It defines a self-contained content, and referenced as a single unit.<br><br>
+                   footer tag:- 	It represents the footer section of the webpage.
+                
+            </tr>
+            <tr>
+                <td>How to embed audio and video in a webpage?</td>
+                <td>Create a new HTML file in the same directory, called index. html . Add audio tag and video tag elements to the page; make them display the default browser controls. Give both of them source tag
+                     elements so that browsers will find the audio format they support best and load it.<br><br>
+                     width and height
+You can control the video size either with these attributes or with CSS. In both cases, videos maintain their native width-height ratio — known as the aspect ratio. 
+If the aspect ratio is not maintained by the sizes you set, the video will grow to fill the space horizontally, and the unfilled space will just be given a solid background color by default.<br><br>
+
+autoplay:-
+Makes the audio or video start playing right away, while the rest of the page is loading. You are advised not to use autoplaying video (or audio) on your sites, because users can find it really annoying.<br><br>
+
+loop:-
+Makes the video (or audio) start playing again whenever it finishes. This can also be annoying, so only use if really necessary.<br><br>
+
+muted:-
+Causes the media to play with the sound turned off by default.<br><br>
+
+poster:-
+The URL of an image which will be displayed before the video is played. It is intended to be used for a splash screen or advertising screen.<br><br>
+
+preload:-
+Used for buffering large files; it can take one of three values:<br><br>
+
+>>"none" does not buffer the file<br>
+>>"auto" buffers the media file<br>
+>>"metadata" buffers only the metadata for the file<br>
+>>You can find the above example available to play live on GitHub (also see the source code.) 
+Note that we haven't included the autoplay attribute in the live version — if the video starts to play as soon as the page loads, you don't get to see the poster!</td>
+            </tr>
+            <tr>
+                <td>Semantic element in HTML5?</td>
+                <td>A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: Div tag and span tag
+                     Tells nothing about its content. Examples of semantic elements: form tag , table tag , and article tag- Clearly defines its content.<br>
+                    -> article tag<br>
+                    ->aside tag<br>
+                    ->details tag<br>
+                    ->figcaption tag<br>
+                    ->figure tag<br>
+                    ->footer tag<br>
+                    ->header tag<br>
+                    ->main tag<br>
+                    ->mark tag<br>
+                    ->nav tag<br>
+                    ->section tag<br>
+                    ->summary tag<br>
+                    ->time tag<br>
+                        </td>
+            </tr>
+            <tr>
+                <td>
+                    Canvas and SVG tags
+                </td>
+                <td>SVG: The Scalable Vector Graphics (SVG) is an XML-based image format that is used to define two-dimensional vector-based graphics for the web. 
+                    Unlike raster image (Ex .jpg, .gif, .png, etc.), a vector image can be scaled up or down to any extent without losing the image quality.<br>
+
+                    An SVG image is drawn out using a series of statements that follow the XML schema — that means SVG images can be created and edited with any text editor, such as Notepad. 
+                    There are several other advantages of using SVG over other image formats like JPEG, GIF, PNG, etc.<br><br>
+                    Canvas: The HTML element is used to draw graphics on the fly, via scripting (usually JavaScript). The element is only a container for graphics. You must use a script to actually draw the graphics.
+                     Canvas has several methods for drawing paths, boxes, circles, text, and adding images.</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    
+</body>
+</html>
