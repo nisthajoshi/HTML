@@ -24,17 +24,34 @@ a{
     background-color:rgb(229, 140, 105);
     height:500px;
     width:100%;
+
 }
 .b{
     list-style-type: none;
     padding-top: 20px;
     background-color: palevioletred;
-    display: none;
+   display: none;
+   padding: 20px;
+   left: 20px;
+}
+li:hover .b{
+    display: block;
+}
+.d{
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: palevioletred;
+   display: none;
+   left:70px;
+   font-size: 20px;
+   padding:10px;
+
 
 }
-.a{
-    display: inline-block;
-    position: relative;
-    
-
+.aa{
+    position: absolute;
+}
+.aa:hover .d{
+    display: block;
+    position:relative;
 }
