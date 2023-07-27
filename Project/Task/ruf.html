@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miscellaneous Properties</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+      .box {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        border: 10px solid black;
+        /* background-color: teal; */
+        background: url(../../Images/animal\ d.jpg) no-repeat center center/cover;
+        outline: dashed red;
+        /* visibility: hidden; */
+        /* display: none; */
+        /* opacity: 0.5; */
+        margin: 0 auto;
+        cursor: pointer;
+        /* filter: blur(5px); */
+        /* filter: brightness(0.4); */
+        /* filter: contrast(200%); */
+        /* filter: drop-shadow(16px 16px 20px blue); */
+        /* filter: grayscale(50%); */
+        /* filter: hue-rotate(90deg); */
+        /* filter: invert(75%); */
+        /* filter: opacity(25%); */
+        /* filter: saturate(30%); */
+        /* filter: sepia(60%); */
+        /* filter: contrast(200%) brightness(0.9); */
+        /* filter: drop-shadow(3px 3px red) sepia(100%) drop-shadow(-3px -3px blue); */
+      }
+      h1::after {
+        font-family: "Oswald", sans-serif;
+        content: " !";
+      }
+      h1::before {
+        font-family: "Oswald", sans-serif;
+        content: "~ ";
+      }
+      caption {
+        caption-side: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Miscellaneous Properties</h1>
+    before
+    <div class="box"></div>
+    after
+    <table border="">
+      <tr>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+      </tr>
+      <caption>
+        Table No 21
+      </caption>
+    </table>
+  </body>
+</html>
