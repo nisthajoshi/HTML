@@ -1,0 +1,262 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+ }
+ 
+ i{
+     margin: 30px;
+     color: black;
+     font-size: 20px;
+ }
+ .text
+ {
+     display: inline;
+     font-size: 30px;
+ }
+ .background
+ {
+     background-image: url(../Images/uberbg.png);
+     background-size: cover;
+     width: 100%;
+     height: 700px;
+     overflow: hidden;
+ }
+.signup
+{
+ margin-left: 1200px;
+ margin-top: -60px;
+ width: 100px;
+ height: 47px;
+}
+.login
+{
+ margin-left: 1100px;
+ margin-top: -46px;
+ width: 100px;
+ height:7px;
+}
+.hum
+{
+    float: right;
+    display: none;
+}
+a{
+ text-decoration: none;
+ padding: 30px; 
+}
+.a
+{
+ color: white;
+ padding: 12px 16px;
+ border-radius: 25px;
+ background-color: black;
+ border: none;
+}
+.b
+{
+ color: black;
+ padding: 12px 16px;
+ border-radius:25px;
+ background-color: white;
+ border: none;
+}
+.font
+{
+ font-size: 60px;
+ margin-top: 150px;
+ margin-left: 50px;
+}
+input
+{
+ margin-top: 20px;
+ margin-left: 50px;
+  width: 600px;
+  height: 50px;
+}
+.box
+{
+ background-color: white;
+ margin-top: 20px;
+ margin-left: 50px;
+  width: 600px;
+  height: 50px;
+  display: flex;
+}
+.fa-location-dot
+{
+ margin-top: 15px;
+ margin-left: 20px;
+ 
+}
+input
+{
+     width: 100%;
+     margin-top: 0px;
+     margin-left: -18px;
+     border: none;
+    
+}
+.box1
+{
+ margin-top: -50px;
+ margin-left: 660px;
+ 
+}
+select
+{
+ width: 150px;
+ height: 50px;
+ border: none;
+}
+option
+{
+ font-size: 15px;
+ 
+}
+.text1
+{
+ width: 140px;
+ height: 50px;
+ border-radius: 10px;
+ color: white;
+ background-color: black;
+ border: none;
+}
+
+.replace
+{
+ margin-top:-50px;
+ margin-left:155px;
+
+}
+.t{
+ display: inline;
+ width: 100px;
+ height: 40px;
+ color:black;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight:100;
+
+}
+.b{
+    display: flex;
+}
+.photos{
+ background-image: url(../Images/employess.webp);
+ background-size: cover;
+ height:300px;
+ width:500px;
+ margin-top: 50px;
+ margin-left: 50px;
+}
+.photo{
+ background-image: url(../Images/restaurant);
+ background-size: cover;
+ height: 300px;
+ width:500px;
+ margin-left:50px;
+ margin-top: 50px;
+
+}
+.photoo{
+    background-image:url(../Images/deliver) ;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.h{
+    float: left;
+    text:inline;
+    margin-left:66px;
+}
+.p{
+    font-size: small;
+    font-family: sans-serif;
+    text-decoration:underline;
+}
+.z2{
+    font-size: small;
+    font-family:sans-serif;
+    text-decoration: underline;
+}
+.m{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.z3{
+    font-size: small;
+    font-family:sans-serif;
+    text-decoration: underline;  
+}
+.x3{
+    margin-right:180px;
+}
+.x2{
+    margin-left:65px;
+}
+.b0{
+    margin-top:50px;
+    margin-left:60px;
+    overflow: hidden;
+
+}
+.c{
+    float: right;
+    margin-right:20px;
+    padding-bottom:20px;
+    text-decoration: underline;
+}
+.map{
+    margin-left: 70px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.tt{
+    overflow:hidden;
+}
+.t1{
+    margin-left:70px;
+    font-family:sans-serif;
+   
+}
+.q1{
+    float: right;
+    text-decoration: underline;
+}
+.q{
+    margin-top: 20px;
+    margin-left:50px;
+}
+.tu{
+    margin-left:50px;
+    padding-right:80px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.ov{
+    overflow: hidden;
+}
+.u{
+    font-style:bold;
+    margin-top:100px;
+    margin-left:70px;
+}
+.o{
+    float: right;
+    margin-right:500px;
+    margin-bottom: 50px;
+    font-size: medium;
+    font-family: sans-serif;
+
+
+}
+.i0{
+    margin-top:400px;
+    justify-content: space-between;
+    font-size: small;
+    
+}

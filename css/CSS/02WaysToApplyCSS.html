@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways To apply CSS</title>
+
+    <!-- External CSS is applied by using Link tag in head section  -->
+
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS is applied by using style tag in head section  -->
+
+    <style>
+        /* syntax=> */
+
+        /* Selector{
+            property1: value1;
+            property2: value2;
+        } */
+
+        .Internal{
+            color: teal;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ways To apply CSS</h1>
+    <ul>
+        <!-- Inline CSS is applied by using style attribute in an element  -->
+        <!-- which we have to give CSS properties -->
+        <!-- syntax=> style="property1: value1; property2: value2;" -->
+        <li style="color: brown; font-size: 30px;">Inline CSS</li>
+        <li class="Internal">Internal CSS</li>
+        <li class="External">External CSS</li>
+    </ul>
+</body>
+</html>

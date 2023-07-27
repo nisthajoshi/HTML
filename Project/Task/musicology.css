@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .containar{
+    width:90%;
+    margin: 0 auto;
+} */
+.navbar{
+    list-style-type: none;
+    background-color: rgb(38, 31, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0;
+
+}
+a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.b{
+    background: url(../../Images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(8\).png) no-repeat center center/cover;
+    height:700px;
+}
+.c{
+    color: white;
+    text-align:left;
+    padding-top:270px;
+    font-size:70px;
+    margin-left:80px;
+    
+}
+.d{
+    color: white;
+    font-size:20px;
+    margin-left:80px;
+}
+.f{
+    border:1px solid black;
+    width:250px;
+    height:35px;
+    background-color:orangered;
+    text-align: center;
+    padding-top:10px;
+    margin-left:80px;
+    margin-top: 20px;
+    
+}
+.g{
+    background-color: orangered;
+    height:700px;
+    color: white;
+    padding-top:30px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size:25px;
+}
+.g2{
+    margin-top:30px;
+}
+.i1{
+    display: flex;
+    gap:30px;
+
+}
+.i{
+    margin-top: 50px;
+    margin-left:90px;
+}
+.i0{
+    margin-top:50px;
+    margin-left:60px;
+}
+.i2{
+    margin-top: 50px;
+    margin-left:60px;
+}
+.ii{
+    background-color: rgb(31, 30, 30);
+    font-size:25px;
+    font-family: sans-serif;
+    padding-top:20px;
+}
+.ii2{
+    background-color: rgb(31, 30, 30);
+    font-size:medium;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+.j{
+    background-color: rgb(53, 49, 49);
+    height:600px;
+    color: white;
+    text-align: center;
+}
+.jj{
+    font-size:50px;
+    padding-top:40px;
+}
+.j0{
+    font-size: medium;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.k{
+    display: flex;
+    gap:100px;
+}
+.k1{
+    background-color: orangered;
+    width:300px;
+    height:400px;
+    margin-left:100px;
+    margin-top:30px;
+}
+.k2{
+    background-color: orangered;
+    width:300px;
+    height:400px;
+    margin-left:60px;
+    margin-top:30px;
+}
+.k3{
+    background-color: orangered;
+    border-radius:2%;
+    width:300px;
+    height:400px;
+    margin-left:60px;
+    margin-top:30px;
+}
+.bu{
+    background-color: rgb(30, 28, 28);
+    height:40px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-top: 10px;
+}
+
+
+
+

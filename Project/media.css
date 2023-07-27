@@ -1,0 +1,30 @@
+@media screen (max-width: 576px)
+ {
+    .background{
+        width: 100%;
+        display:block;
+    }
+    .nev{
+        display: block;
+        margin-right: 50px;
+    }
+    .a{
+        display: none;
+    }
+    .m{
+        display:block;
+        display: inline;        
+    }
+ }
+ @media(max-width:768px)
+ {
+    .background:80px;
+ }
+@media(max-width:992px)
+{
+    .background:60px;
+}
+@media(max-width:1200px)
+{
+    .background:40px
+}

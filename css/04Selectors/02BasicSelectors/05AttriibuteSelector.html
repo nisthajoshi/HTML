@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selector</title>
+    <style>
+      div[class*="box"]{
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+      }
+      .box1{
+        background-color: teal;
+      }
+      .box2{
+        background-color: rgb(249, 10, 53);
+      }
+      .box3{
+        background-color: rgb(10, 54, 249);
+      }
+      input[type]{
+        color: teal;
+      background-color: khaki;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Attribute Selector (#)</h1>
+    <p>
+      The CSS attribute selector matches elements based on the element having a
+      given attribute explicitly set, with options for defining an attribute
+      value or substring value match.
+    </p>
+    <input type="text" placeholder="Type Here">
+    <input type="text" >
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+  </body>
+</html>
