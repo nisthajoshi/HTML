@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Padding</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        } 
+        div{
+            border: 1px solid black;
+            background-color: teal;
+            color: khaki;
+        }
+        .margin{
+            margin: 100px; 
+            /* All Four Side*/
+            margin: 100px 200px; 
+            /* Top-Bottom = 100px, right-left = 200px*/
+            margin: 100px 200px 300px; 
+            /* Top = 100px, right-left = 200px, bottom = 300px*/
+            margin: 100px 200px 300px 400px; 
+            /* Top = 100px, right = 200px, bottom = 300px, left = 400px*/
+        }
+        .padding{
+            padding: 100px; 
+            /* All Four Side*/
+            padding: 100px 200px; 
+            /* Top-Bottom = 100px, right-left = 200px*/
+            padding: 100px 200px 300px; 
+            /* Top = 100px, right-left = 200px, bottom = 300px*/
+            padding: 100px 200px 300px 400px; 
+            /* Top = 100px, right = 200px, bottom = 300px, left = 400px*/
+        }
+    </style>
+</head>
+<body>
+    <div class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam beatae ab expedita, unde totam eos blanditiis suscipit, voluptate atque magnam sed quibusdam reprehenderit laudantium maxime quaerat? Officia excepturi fuga dolor.</div>
+   <hr> <div class="padding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam beatae ab expedita, unde totam eos blanditiis suscipit, voluptate atque magnam sed quibusdam reprehenderit laudantium maxime quaerat? Officia excepturi fuga dolor.</div>
+</body>
+</html>

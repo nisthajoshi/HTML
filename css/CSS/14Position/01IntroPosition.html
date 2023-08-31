@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position In CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+            color: aliceblue;
+        }
+        div[class*="box"]{
+            height: 500px;
+            margin-left: 50px;
+
+        }
+        .box-1{
+            background-color: blue;
+        }
+        .box-2{
+            background-color: rgb(255, 145, 0);
+        }
+        .box-3{
+            background-color: rgb(255, 0, 0);
+            position: relative;
+        }
+        .box-4{
+            background-color: rgb(0, 225, 255);
+        }
+    .Fixed{
+        position: fixed;
+        top: 0;
+        right:  0;
+        width: 100px;
+        background-color: black;
+        padding: 10px;
+        font-size: 20px;
+        
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+            background-color: teal;
+            color: khaki;
+            padding: 10px 20px ;
+            text-align: center;
+        }
+        .box-5{
+            background-color: rgb(255, 0, 179);
+            position: relative;
+        }
+        div[class*="box-ab"]{
+            color: black;
+            margin-left: 0;
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            color: aliceblue;
+            font-size: 30px;
+        }
+        .box-ab-1{
+            background-color: teal;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+        .box-ab-2{
+            background-color: rgb(98, 0, 128);
+            top: 80px;
+            left: 80px;
+            z-index: 10;
+        }
+        .box-ab-3{
+            background-color: rgb(128, 23, 0);
+            top: 110px;
+            left: 110px;
+        }
+        .box-ab-4{
+            background-color: rgb(128, 107, 0);
+            top: 140px;
+            left: 140px;
+            z-index: 100;
+        }
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>position: static;</li>
+      <li>position: relative;</li>
+      <li>position: absolute;</li>
+      <li>position: fixed;</li>
+      <li>position: sticky;</li>
+    </ul>
+
+    <div class="Fixed">Fixed</div>
+    <div class="box-1">Box-1</div>
+    <div class="box-2">Box-2</div>
+    <div class="box-3">Box-3
+        <div class="sticky">
+            Sticky
+        </div>
+    </div>
+    <div class="box-4">Box-4</div>
+    <div class="box-5">
+        box-5
+        <div class="box-ab-1">box-ab-1</div>
+        <div class="box-ab-2">box-ab-2</div>
+        <div class="box-ab-3">box-ab-3</div>
+        <div class="box-ab-4">box-ab-4</div>
+    </div>
+  </body>
+</html>

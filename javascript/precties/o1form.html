@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validetion Form</title>
+</head>
+<style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    form{
+        background-color: palevioletred;
+        color: white;
+        height: 300px;
+        width:50%;
+    }
+    #button
+    {
+        background-color: teal;
+        color: white;
+        height: 50px;
+        width:80px;
+    }
+</style>
+<body>
+    <fieldset>
+        <legend>Valid form</legend>
+     <form action="">
+        <label for="uname">User Name</label>
+        <input type="text" name="uname" id="uname" onblur="Validateform(this, 'unameError' , 'name')">
+        <span id="unameError"></span>
+        <br>
+        <label for="uemali">User Email</label>
+        <input type="text" name="uemali" id="uemali" onblur="Validateform(this, 'uemailError' , 'EmailId')">
+        <span id="uemailError"></span>
+        <br>
+        <label for="upswd">User Password</label>
+        <input type="text" name="upswd" id="upswd" onblur="Validateform(this, 'upswdError', 'Password')">
+        <span id="upswdError"></span>
+        <br>
+        <label for="umob">User moblie number</label>
+        <input type="tel" name="umob" id="umob" onblur="Validateform(this, 'umobNoError', 'content number')">
+        <span id="umobNoError"></span>
+        <br>
+        <button id="button">Submit</button>
+     </form>
+    </fieldset>
+    <script>
+        function Validateform(e, spnId, msg)
+        {
+            if(e.value == "" )
+            {
+                document.getElementById(spnId).innerText ="Enter valid" + msg
+            }
+            else
+            {
+                document.getElementById(spnId).innerText =""
+            }
+        }
+    </script>
+</body>
+</html>

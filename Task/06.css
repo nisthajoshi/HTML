@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background: linear-gradient(135deg,rgb(235, 207, 235) ,rgb(125, 99, 197),rgb(216, 20, 89));
+    height:740px;
+}
+.header-wrapper{
+    height:60px;
+    background-color:whitesmoke;
+    width:100%;
+}
+.navbar{
+    gap:20px;
+    display: flex;
+    padding-top:10px;
+    padding-left:20px;
+    list-style-type: none;
+    color: rgb(107, 104, 104);
+}
+.logo{
+    /* display: none; */
+    position: relative;
+}
+.logoo{
+     margin-left:90%; 
+    list-style-type: none;
+    display: inline-block;
+    position:absolute;
+}
+.logoo:hover() .logo{
+    display: block;
+    position:absolute;
+}
+.section{
+    margin-top:50px;
+    display: flex;
+    justify-content:space-around;
+}
+.button{
+    list-style-type:none;
+    height:200px;
+    width:20%;
+    padding:40px;
+    text-align: center;
+    background-color:palevioletred;
+    color: whitesmoke;
+}
+.ul1{
+    list-style-type:none;
+}
+.main{
+    background-color:rgb(235, 207, 235) ;
+    height:100px;
+    width:100%;
+}
+.main2{
+    background-color:rgb(198, 138, 159);
+}
+.flex{
+    display: flex;
+    gap:10px;
+}
+.price{
+    text-decoration: line-through;
+}
+.color{
+    color: red;
+}
+.box11{
+    transform: rotateY(180deg);
+}
+.box{
+    width:800px;
+    height:200px;
+    margin: 0 auto;
+    position: relative;
+}
+.shape{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    opacity: 0;
+}
+a{
+    display: none;
+}
+input:checked + a{
+    width:100%;
+    height:100px;
+    display: inline-block;
+    color: aliceblue;
+    background-color: crimson;
+}

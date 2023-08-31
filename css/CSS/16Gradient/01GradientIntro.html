@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient In HTML</title>
+    <style>
+      .linear-gradient {
+        /* background: linear-gradient(
+          to right,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        ); */
+        background: linear-gradient(0.25turn, red, 20%, blue);
+        height: 100px;
+        /* width: 500px; */
+      }
+      .radial-gradient {
+        background: radial-gradient(red, yellow, rgb(30, 144, 255));
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+
+      .conic-gradient {
+        background: conic-gradient(
+          rgb(243, 3, 235),
+          rgb(242, 8, 8),
+          rgb(186, 230, 176)
+        );
+        height: 180px;
+        width: 180px;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+      .multi {
+       /* Multi-position color stop: A gradient tilted 45 degrees,
+   with a red bottom-left half and a blue top-right half,
+   with a hard line where the gradient changes from red to blue */ 
+
+   background: linear-gradient( 45deg,  red 0 50%, blue 50% 100%);
+
+        /* A gradient tilted 45 degrees,
+   starting blue and finishing red */
+
+        background: linear-gradient(45deg, blue, red);
+
+        /* A gradient going from the bottom right to the top left corner,
+   starting blue and finishing red */
+
+        background: linear-gradient(to left top, blue, red);
+
+        /* Color stop: A gradient going from the bottom to top,
+   starting blue, turning green at 40% of its length,
+   and finishing red */
+
+        background: linear-gradient(0deg, blue, green 40%, red);
+
+        /* Color hint: A gradient going from the left to right,
+   starting red, getting to the midpoint color
+   10% of the way across the length of the gradient,
+   taking the rest of the 90% of the length to change to blue */
+
+        background: linear-gradient(0.25turn, red, 10%, blue);
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/gradient -->
+
+    <div class="linear-gradient"></div>
+    <hr />
+    <div class="radial-gradient"></div>
+    <hr />
+    <div class="conic-gradient"></div>
+    <hr />
+    <div class="multi"></div>
+  </body>
+</html>

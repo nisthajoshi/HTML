@@ -35,7 +35,7 @@ a{
    left: 20px;
 }
 li:hover .b{
-    display: block;
+    display:block;
 }
 .d{
     list-style-type: none;
@@ -52,6 +52,6 @@ li:hover .b{
     position: absolute;
 }
 .aa:hover .d{
-    display: block;
+    display:inline-block;
     position:relative;
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Validation Form</legend>
+        <form action="">
+            <label for="uname">User Name</label>
+            <input type="text" name="uname" id="uname" onblur="validateForm(this, 'unameError', ' Name')">
+            <span id="unameError"></span>
+            <br>
+            <label for="umailId">User MailId</label>
+            <input type="text" name="umailId" id="umailId" onblur="validateForm(this, 'umailError', ' EmailId')">
+            <span id="umailError"></span>
+            <br>
+            <label for="upswd">Password</label>
+            <input type="text" name="upswd" id="upswd" onblur="validateForm(this, 'upswdError', ' Password')">
+            <span id="upswdError"></span>
+            <br>
+            <label for="umob">Contact no.</label>
+            <input type="text" name="umob" id="umob" onblur="validateForm(this, 'umobNoError', ' Contact number')">
+            <span id="umobNoError"></span>
+            <br>
+            <button id="submit">Submit the form!</button>
+        </form>
+    </fieldset>
+    <script>
+        function validateForm(e, spnId, msg) {
+            if (e.value == "") {
+                document.getElementById(spnId).innerText = "Enter Valid" + msg
+            } else {
+                document.getElementById(spnId).innerText = " "
+            }
+        }
+    </script>
+</body>
+
+</html>

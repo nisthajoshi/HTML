@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Of Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        body{
+            background-color: tan;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            background-color: crimson;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            
+        }
+        .col-50{
+            width: 50%;
+        }
+        img{
+            width: 100%;
+        }
+        .manan{
+            background-color: teal;
+            color: khaki;
+        }
+        .col-33{
+            width: 33.33%;
+        }
+        .col-25{
+            width: 25%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-50"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-50 manan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident cupiditate incidunt perspiciatis ut, pariatur minima quo ex. A magnam maiores minus? Pariatur voluptatibus cupiditate, veniam maxime nihil animi deleniti?</div>
+        </div>
+        <div class="row">
+            <div class="col-33"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-33 manan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident cupiditate incidunt perspiciatis ut, pariatur minima quo ex. A magnam maiores minus? Pariatur voluptatibus cupiditate, veniam maxime nihil animi deleniti?</div>
+            <div class="col-33"><img src="../../Images/banner.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-25 manan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident cupiditate incidunt perspiciatis ut, pariatur minima quo ex. A magnam maiores minus? Pariatur voluptatibus cupiditate, veniam maxime nihil animi deleniti?</div>
+            <div class="col-25"><img src="../../Images/banner.jpg" alt=""></div>
+            <div class="col-25 manan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident cupiditate incidunt perspiciatis ut, pariatur minima quo ex. A magnam maiores minus? Pariatur voluptatibus cupiditate, veniam maxime nihil animi deleniti?</div>
+            <div class="col-25"><img src="../../Images/banner.jpg" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

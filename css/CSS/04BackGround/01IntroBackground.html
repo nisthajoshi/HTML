@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Property In CSS</title>
+    <style>
+      div {
+        height: 600px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 50px;
+      }
+      .background-attachment {
+        border: 10px dashed orangered;
+        background: url(../../Images/banner.jpg) no-repeat center center/cover;
+        background-attachment: fixed;
+      }
+      .background-clip {
+        border: 10px dashed orangered;
+        color: aliceblue;
+        background-image: url(../../Images/banner.jpg);
+        background-clip: border-box;
+        background-clip: padding-box;
+        background-clip: content-box;
+        padding: 100px;
+      }
+      .background-origin {
+        border: 10px dashed orangered;
+        color: aliceblue;
+        background-image: url(../../Images/banner.jpg);
+        background-repeat: no-repeat;
+        background-origin: border-box;
+        background-origin: padding-box;
+        background-origin: content-box;
+        padding: 100px;
+      }
+      .background-color {
+        border: 10px dashed orangered;
+        background-color: teal;
+      }
+      .background-image {
+        border: 10px dashed orangered;
+        background-image: url(../../Images/banner.jpg);
+        background-image: url(../../Images/rocket.png);
+      }
+      .background-position {
+        border: 10px dashed orangered;
+        color: aliceblue;
+        background-image: url(../../Images/banner.jpg);
+        background-image: url(../../Images/rocket.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: left;
+        background-position: 60% 10%;
+      }
+      .background-repeat {
+        border: 10px dashed orangered;
+        background-image: url(../../Images/rocket.png);
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-repeat: no-repeat;
+      }
+      .background-size {
+        border: 10px dashed orangered;
+        background-image: url(../../Images/rocket.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 50%;
+        background-size: cover;
+      }
+      .background-multiple {
+        border: 10px dashed orangered;
+        color: aliceblue;
+        background-image: url(../../Images/dog.png),
+          url(../../Images/rocket.png);
+        background-repeat: no-repeat;
+        background-position: 0% 0%, bottom 0% right 0%;
+        height: 100vh;
+      }
+    </style>
+    <!-- background: [background-image] [background-position] / 
+        [background-size] [background-repeat] [background-attachment]
+         [background-origin] [background-clip] [background-color]; -->
+  </head>
+  <body>
+    <h1>Background Property In CSS</h1>
+    <ul>
+      <li>background-attachment</li>
+      <li>background-clip</li>
+      <li>background-origin</li>
+      <li>background-color</li>
+      <li>background-image</li>
+      <li>background-position</li>
+      <li>background-repeat</li>
+      <li>background-size</li>
+    </ul>
+    <hr />
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="background-multiple">background-multiple</div>
+  </body>
+</html>

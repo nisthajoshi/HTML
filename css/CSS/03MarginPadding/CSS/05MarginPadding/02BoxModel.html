@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 5px solid black;
+            margin: 20px;
+        }
+        .content-box{
+            box-sizing: content-box;
+            /* width = 200px
+               height = 200pc 
+               content-box width => 200px + (2 * 20) + (2 * 5) => 250px
+               content-box height => 200px + (2 * 20) + (2 * 5) => 250px*/
+        }
+        .border-box{
+            box-sizing: border-box;
+            /* width = 200px
+               height = 200pc 
+               border-box width => 200px - (2 * 20) - (2 * 5) => 150px
+               border-box height => 200px - (2 * 20) - (2 * 5) => 150px*/
+
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ad!</div>
+    <div class="border-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ad!</div>
+</body>
+</html>
