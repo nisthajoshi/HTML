@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    .main{
+        margin: 0px auto;
+    }
+    .main-text{
+        background-color: green;
+        color: white;
+        height: 100px;
+        width: 800px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .LettPane{
+        background-color: red;
+        color: white;
+        height:500px ;
+        width: 15%;
+    }
+    p{
+        padding: 40px 50px;
+    }
+    .row{
+        display: flex;
+    }
+    .r{
+        background-color: blue;
+        color: white;
+        height: 100px;
+        width: 800px;
+    }
+</style>
+<body>
+    <div class="main">
+    <div class="header">
+      <div class="main-text">
+        <div class="col-50">
+            <p>Header</p>
+        </div>
+        <div class="col-50">
+            <p>height: 100px, width: 100px</p>
+        </div> 
+    </div>
+    <div class="row">
+        <div class="LettPane">
+            <p class="p">LattPane</p>
+            <p>Height:full area width:350px</p>
+      </div> 
+      <div class="col-50">
+        <p>content Area</p>
+        <p>Height:fill area width:fill area</p>
+      </div>
+    </div>
+    <div class="row r">
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+        <div class="col-50">
+            <p>height: 100px, width: 100px</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

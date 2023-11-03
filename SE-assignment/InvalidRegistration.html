@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistr</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        background:linear-gradient(white , rgb(30, 144, 255));
+        color: red;
+        font-size: 25px;
+        text-align: center;
+        margin: 20px auto;
+        width: 50%;
+    }
+
+    .section {
+        background-color:  rgb(214, 230, 241);
+        margin: 20px auto;
+        width: 50%;
+    }
+
+    h4 {
+        color: red;
+        padding: 30px;
+    }
+
+   li{
+        color: rgb(10, 10, 251);
+        text-align: center;
+        font-weight: bolder;
+        font-size: 12px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 0.8px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-around;
+    }
+    p{
+        color: rgb(87, 87, 225);
+        padding: 0px 10px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    button{
+        color: white;
+        background-color:  rgb(87, 87, 225); 
+        margin: 10px;
+        font-size: 12px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>INVALID REGISTRATION</h1>
+    </header>
+    <div class="section">
+        <div class="box1">
+            <h4>User Particulars</h4>
+            <li>Login id <input type="text"></li>
+            <li>password <input type="password"></li>
+            <li>Confirm password <input type="password"></li>
+        </div>
+        <div class="box2">
+            <h4>Personal Particulars</h4>
+            <div class="row">
+                <div class="col-50">
+                    <li><label for="">Salution</label> 
+                        <select name="Salution" id="Salution">
+                            <option value="">--select--</option>
+                        </select>
+                    </li>
+                    <li><label for="">Middle Name</label> <input type="text"></li>
+                    <li> Status <select name="Resident" id="Resident">
+                            <option value="">--select--</option></select>
+                    </li>
+                    <li><label for="">Email-Id</label><input type="email"></li>
+                </div>
+                <div class="col-50">
+                    <li><label for="">First Name</label><input type="text"></li>
+                    <li><label for="">Last Name</label><input type="text"></li>
+                    <li><label for="">Country</label><select name="Country" id="Country">
+                        <option value="">--select--</option></select></li>
+                        <li><label for="">Mobile Number</label><input type="number"></li>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <h4>Account Particulars</h4>
+            <div class="row">
+                <div class="col-50">
+                    <li>
+                        <label for="">15 Digit Account No</label><input type="number">
+                    </li>
+                    <li><label for="">Fund Transfer</label><input type="text"></li>
+                </div>
+                <div class="col-50">
+                    <li><label for="">Nick Name</label><input type="text"></li>
+                </div>
+            </div>
+        </div>
+        <div class="box4">
+            <h4>DECLRATION</h4>
+            <P>I have read,understood and hereby agree to the terms and conditions in requset of all products and <br>
+                chhanels.<br>
+                i understand that any changes in the trems and conditions applicable to this relationship would be made 
+                available to me on requset at any IOB branches.i Confirm that all account under this login name are <br>
+                operated singly and in case of joitn account operated by ethir or survivor /anyone or of survivor(s) under  <br>
+                his/her joitn name respecitvely. i do hareby declare that information furnished in this form is true to the <br> 
+                best of my knowleged and belief.
+            </P>
+        </div>
+        <div class="box5">
+            <div class="row">
+                <button>submit</button>
+                <button>Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
