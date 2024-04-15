@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #section{
+        /* background: url(../Images/Mountain.jpg) no-repeat center center/cover; */
+        background:linear-gradient(90deg, rgba(208, 170, 206, 0.5) 14%, rgba(176, 153, 220, 0.908) 100%), url(../Images/Mountain.jpg)no-repeat center/cover;
+        color: white;
+        filter: opacity(58%);
+        margin: 50px auto;
+        width: 70%;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .l{
+        color: black;
+    }
+    li{
+        list-style: none;
+        padding: 20px;
+    }
+    .main-text{
+        padding: 190px 30px 180px 0px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        font-size: 45px;
+        padding: 20px;
+    }
+    button{
+        height: 45px;
+        width: 90px;
+        border-radius: 33%;
+        border: none;
+        margin: 20px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+<body>
+   <div id="section">
+    <div class="section-warraper">
+        <div class="nav">
+            <li class="logo">
+            <img src="../Images/logoo" alt="">
+            </li>
+            <li class="l">Home</li>
+            <li>Slider</li>
+            <li>Pages</li>
+            <li>Portollo</li>
+            <li>Blog</li>
+            <li>shop</li>
+            <li>Features</li>
+            <li>Elements</li>
+            <li>Contact</li>
+        </div>
+        <div class="main-text">
+            <h1>WELCOME TO  ELASTIC</h1>
+            <P>meacenas nunc,imperdiet sit amet,ticidunt faucibs dolor.</P>
+            <button>Buy Now!</button>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>
